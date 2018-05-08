@@ -9,3 +9,14 @@ C:\Project\NETCore\CityInfo\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.0\Ci
 C:\Project\NETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.dll
 C:\Project\NETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.pdb
 C:\Project\NETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.csprojAssemblyReference.cache
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.0\CityInfo.API.deps.json
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.0\CityInfo.API.runtimeconfig.json
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.0\CityInfo.API.runtimeconfig.dev.json
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.0\CityInfo.API.dll
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\bin\Debug\netcoreapp2.0\CityInfo.API.pdb
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.csprojAssemblyReference.cache
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.csproj.CoreCompileInputs.cache
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.AssemblyInfoInputs.cache
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.AssemblyInfo.cs
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.dll
+C:\Project\ASPNETCore\CityInfo\CityInfo.API\CityInfo.API\obj\Debug\netcoreapp2.0\CityInfo.API.pdb
