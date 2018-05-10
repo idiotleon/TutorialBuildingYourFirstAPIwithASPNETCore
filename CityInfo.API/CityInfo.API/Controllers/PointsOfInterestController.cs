@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using CityInfo.API.Models;
 
@@ -43,13 +40,23 @@ namespace CityInfo.API.Controllers
             return Ok(pointOfInterest);
         }
 
-        [HttpPost("{cityId/pointsofinterest}")]
+        [HttpPost("{cityId}/pointsofinterest")]
         public IActionResult CreatePorintOfInterest(int cityId,
-            [FromBody]PointOfInterestForCreationDto pointOfInterst)
+            [FromBody]PointOfInterestForCreationDto pointOfInterest)
         {
-            if (pointOfInterst == null)
+            if (pointOfInterest == null)
             {
                 return BadRequest();
+            }
+
+            if (pointOfInterest.Description == pointOfInterest.Name)
+            {
+                ModelState.AddModelError("Description", "The provided description should be different from the name.");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
             }
 
             var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
@@ -66,8 +73,8 @@ namespace CityInfo.API.Controllers
             var finalPointOfInterest = new PointOfInterestDto()
             {
                 Id = ++maxPointOfInterestId,
-                Name = pointOfInterst.Name,
-                Description = pointOfInterst.Description
+                Name = pointOfInterest.Name,
+                Description = pointOfInterest.Description
             };
 
             city.PointsOfInterest.Add(finalPointOfInterest);
